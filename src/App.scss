@@ -1,0 +1,135 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+ 
+}
+
+.App {
+  text-align: center;
+  margin: 40px;
+  border-radius: 15px;
+  background-size: 100%;
+  background-color: #edf2f3;
+  
+}
+#root{
+  background-color: #f5f9fa;
+  
+}
+
+.jumbotron {
+  background-image: url('https://c8.alamy.com/compfr/htd1tr/femme-mains-couper-des-legumes-sur-une-planche-de-bois-l-alimentation-saine-et-vegetarienne-concept-vue-d-en-haut-htd1tr.jpg');
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight:900;
+  color: #092172;
+
+}
+@media screen and (min-width: 509px) {
+  .jumbotron { 
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color: #092172;
+  width: auto;
+  height: 200 px;
+}
+}
+input{
+  margin: 10px;
+ 
+ 
+}
+.search-form{
+background-color: rgb(186, 243, 224);
+border-radius: 15px;
+text-align: center;
+padding:  7.5px 12.5px;
+margin: 20px 10px;
+
+}
+
+.search-bar{
+  padding: 30px;
+border-radius: 15px;
+}
+.searching{
+  margin: 10px;
+  padding: 5px 10px;
+}
+.searching:hover{
+  background-color: whitesmoke;
+  border: #5777ce 1px solid;
+  color: #5777ce;
+ 
+
+}
+.info{
+  margin: 10px;
+}
+
+.info:hover{
+  background-color: whitesmoke;
+  border: #5777ce 1px solid;
+  color: #5777ce;
+ 
+}
+.info-class{
+background-color: rgb(241, 233, 233);
+color: rgb(77, 90, 77);
+font-size: medium;
+margin: 0px 10%;
+border-radius: 10px;
+padding: 10px;
+
+}
+.infos{
+  margin: 10px;
+  padding: 4px;
+  background-color: rgb(206, 197, 197); ;
+  border-radius: 5px;
+}
+.card{
+  margin: 10px;
+  border-radius: 10px;
+}
+.card-header{
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: large;
+  font-weight: bolder;
+  background-color: rgb(133, 130, 130);
+  color:rgb(248, 242, 242);
+ 
+  
+  
+
+}
+.rounded-circle{
+  width: 150px;
+  height: 150px;
+}
+.ingredients{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ingredients-text{
+  background-color:  rgb(241, 233, 233);
+  padding: 3px;
+  font-size: medium;
+  border-radius: 5px;
+}
+.ingredients:hover{
+  background-color: whitesmoke;
+  border: green 1px solid;
+  color: green;
+}
+
+
+
+
+
